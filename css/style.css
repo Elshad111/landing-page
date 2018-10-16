@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {  margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
@@ -77,6 +78,7 @@ body{
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .wrapper{
 	width: 100%;
@@ -201,7 +203,6 @@ body{
 
 .content{
 	width: 100%;
-	min-height: 10px;
 	padding: 5.313em 0;
 }
 
@@ -255,7 +256,7 @@ body{
 
 .realization{
 	width: 100%;
-	padding: 2em 0;
+	padding: 2em 0 0;
 	background: #fbfaf8;
 }
 
@@ -280,4 +281,59 @@ body{
 	font-size: 16px;
 	color: #8c8c8c;
 	line-height: 1.25em;
+}
+
+.realization-bg{
+	position: relative;
+    width: 100%;
+	line-height: 0;
+}
+
+.realization-bg img{
+	width: 100%;
+}
+
+.text-boxes{
+	width: 100%;
+	background: #241d1a;
+}
+
+.text-boxes-list{
+	position: relative;
+	max-width: 1170px;
+	padding: 3.438em 1.875em;
+	margin: 0 auto;
+}
+
+.text-boxes-txt{
+	display: inline-block;
+}
+
+.text-boxes-txt h3{
+	font-size: 28px;
+	font-weight: 100;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.text-boxes-txt span{
+	color: #c7b299;
+}
+
+.text-boxes-txt p{
+	font-size: 18px;
+	color: #615855;
+}
+
+.text-boxes-btn{
+	background: #998675;
+    padding: 20px 28px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-box-shadow: #736357 0 4px;
+	color: #fff;
+    box-shadow: #736357 0 4px;
+	text-transform: uppercase;
+	float: right;
 }
