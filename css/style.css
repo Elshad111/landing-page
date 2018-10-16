@@ -280,7 +280,7 @@ body{
 .realization-text{	
 	font-size: 16px;
 	color: #8c8c8c;
-	line-height: 1.25em;
+	line-height: 2.25em;
 }
 
 .realization-bg{
@@ -311,7 +311,7 @@ body{
 
 .text-boxes-txt h3{
 	font-size: 28px;
-	font-weight: 100;
+	font-weight: 400;
 	margin-bottom: 15px;
 	color: #fff;
 }
@@ -326,6 +326,10 @@ body{
 }
 
 .text-boxes-btn{
+	float: right;
+}
+
+.text-boxes-btn{
 	background: #998675;
     padding: 20px 28px;
     border-radius: 5px;
@@ -337,3 +341,87 @@ body{
 	text-transform: uppercase;
 	float: right;
 }
+
+.projects{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 5em 0;
+}
+
+.projects-title{
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.projects-title h3{
+	font-size: 30px;
+	color: #555555;
+	margin-bottom: 15px;
+}
+
+.projects-title p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #8c8c8c;
+	line-height: 2.25em;
+}
+
+.projects-categories{
+	width: 100%;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.projects-categories-item{
+	padding: 10px 25px;
+	box-sizing: border-box;
+	border: 1px solid #ebebeb;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #8c8c8c;
+	display: inline-block;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.projects-categories-item:hover{
+	color: #fff;
+	background: #998675;
+	border: 1px solid #998675;
+}
+
+.projects-categories-item-active{
+	color: #fff;
+	background: #998675;
+	border: 1px solid #998675;
+}
+
+.projects-list{
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;	
+	flex-wrap: wrap;
+	margin: 0 -2%;
+}
+
+.projects-list-item{
+	width: 29.335%;
+    margin: 2%;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+
+.projects-list-item-img{
+	width: 100%;
+	min-height: 236px;
+}
+
+.projects-list-item-img img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
