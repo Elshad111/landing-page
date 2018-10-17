@@ -168,7 +168,7 @@ body{
 	color: #fff;
 	text-align: center;
 	padding-top: 15em;
-	
+	letter-spacing: .5px;	
 }
 
 .description h3{
@@ -186,6 +186,7 @@ body{
 
 .description p{
 	font-size: 18px;
+	line-height: 24px;
 }
 
 .btn{
@@ -734,12 +735,12 @@ body{
 	margin-bottom: 30px;
 }	
 	
-.post-item-text span{
+.post-item-text a{
 	font-size: 14px;
 	color: #c7b299;
 }	
 
-.post-item-text span img{
+.post-item-text a img{
 	margin-left: 10px;
 }	
 
@@ -805,12 +806,123 @@ body{
 }
 	
 .footer-wrapper{
-	
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 4.5em 0;
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;
 }
-	
-	
-	
-	
+
+.footer-main-column{
+	width: 22%;
+	margin: 1.5%;
+}
+
+.footer-main-logo{
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+.footer-main-logo img{
+	max-width: 100%;
+}
+
+.footer-main-title{
+	margin-top: 20px;
+}
+
+.footer-main-title p{
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.footer-main-about-us{
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+.footer-main-about-us p{
+	font-size: 14px;
+	color: #555555;
+	line-height: 20px;
+}
+
+.footer-main-read-more{
+	font-size: 14px;
+	color: #d1d1d1;
+}
+
+.footer-list-items{
+	margin-top: 30px;
+}
+
+.footer-list-item{
+	border-bottom: 1px solid #252525;
+	padding-bottom: 22px;
+	margin-bottom: 16px;
+}
+
+.footer-list-item  span{
+	font-size: 12px;
+	color: #363636;
+}
+
+.footer-list-item p{
+	font-size: 14px;
+	color: #555555;
+	line-height: 20px;
+}
+
+.footer-list-tweets{
+	margin-top: 30px;
+}
+
+.footer-list-tweet{
+	border-bottom: 1px solid #252525;
+	padding-bottom: 22px;
+	margin-bottom: 16px;
+}
+
+.footer-list-tweet p span{
+	color: #00bff3;
+}
+
+.footer-list-tweet p a{
+	color: #959595;
+}
+
+.footer-list-tweet p{
+	font-size: 14px;
+	color: #555555;
+	line-height: 20px;
+}
+
+.footer-list-tweet span{
+	font-size: 12px;
+	color: #363636;
+}
+
+.footer-list-images{
+	width: 100%;
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px -2% 0;
+}
+
+.footer-list-image{
+	width: 46%;
+	margin: 0 2% 2%;
+}
+
+.footer-list-image img{
+	max-width: 100%;
+}
+
+
 	
 	
 	
