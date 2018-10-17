@@ -146,18 +146,20 @@ body{
 
 .slider{
 	position: relative;
-	background: url('../img/1.jpg'), center no-repeat;
+	background: url('../img/1.jpg');
 	background-color: rgba(0,0,0,.7);
 	background-blend-mode: darken;
-	background-position: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size:  cover;
-	-o-background-size: cover;
-	background-size: cover;
 	min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
 }
-
-
 
 .description{
 	width: 100%;
@@ -203,7 +205,7 @@ body{
 
 .content{
 	width: 100%;
-	padding: 5.313em 0;
+	padding: 5.313em 0 0;
 }
 
 .services{
@@ -408,7 +410,7 @@ body{
 }
 
 .projects-list-item{
-	width: 29.335%;
+	width: 29.2%;
     margin: 2%;
     box-sizing: border-box;
     min-height: 400px;
@@ -475,20 +477,22 @@ body{
 }
 
 .presentation{
-	-moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 50% 40%;
 	background-blend-mode: darken;
-    background: url(../img/bg-video.jpg), center ;
+    background: url(../img/bg-video.jpg);
 	background-color: rgba(0,0,0,.5);
-    background-size: cover;
     color: #fff;
     width: 100%;
 	padding: 13em 0;
-    overflow-x: hidden; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
 }
 
 .presentation-play-video{
@@ -656,6 +660,184 @@ body{
     line-height: 2.25em;
 }
 
+.posts-items{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -2%;
+}
 
+.posts-item{
+	width: 29.2%;
+    margin: 2%;
+    box-sizing: border-box;
+	position: relative;
+	border-radius: 3px;
+}
 
+.posts-item-img{
+	width: 100%;
+    line-height: 0;
+}
 
+.posts-item-data{
+	position: absolute;
+    top: 3%;
+    left: 3%;
+    text-align: center;
+	width: 16%;
+	background: #363636;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.post-item-day{
+	font-size: 14px;
+	color: #fff;
+	padding: 9px 0px;
+	background: #363636;
+}
+
+.post-item-month{
+	font-size: 12px;
+	color: #fff;
+	padding: 9px 0px;
+	background: #252525;
+}
+
+.posts-item-img img{	
+	max-width: 100%;
+    height: auto;
+}
+	
+.post-item-text{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 35px 28px;
+	border: 1px solid #f8f8f8;
+	border-top: none;
+}
+	
+.post-item-text h3{
+	font-size: 20px;
+	color: #555555;
+	font-weight: 400;
+	margin-bottom: 24px;
+}	
+
+.post-item-text p{
+	font-size: 14px;
+	color: #8c8c8c;
+	line-height: 22px;
+	margin-bottom: 30px;
+}	
+	
+.post-item-text span{
+	font-size: 14px;
+	color: #c7b299;
+}	
+
+.post-item-text span img{
+	margin-left: 10px;
+}	
+
+.posts-arrows{
+	max-width: 100%;
+	text-align: center;
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+}
+
+.posts-arrows-left, .posts-arrows-right{
+	margin: 0 0.5%;
+}
+
+.partners{
+    overflow-x: hidden;
+	background:url(../img/partners_bg.jpg);
+	background-blend-mode: darken;
+    background-color: rgba(0,0,0,.7);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+}
+
+.partners-list{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 8.75em 0;
+}
+
+.partners-items{
+	width: 100%;
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	margin: 0 -1.5%;
+}
+
+.partners-item{
+	width: 22%;
+	margin: 1.5%;
+	text-align: center;
+}
+
+.partners-item img{
+	max-width: 100%;
+}
+
+.footer{
+	width: 100%;
+	background: #191919;
+	color: #555555;
+}
+	
+.footer-wrapper{
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
