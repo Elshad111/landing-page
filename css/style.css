@@ -864,15 +864,23 @@ body{
 	margin-bottom: 16px;
 }
 
+.footer-list-items :last-child .footer-list-item{
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
 .footer-list-item  span{
 	font-size: 12px;
 	color: #363636;
+	
 }
 
 .footer-list-item p{
 	font-size: 14px;
 	color: #555555;
 	line-height: 20px;
+	margin-top: 5px;
 }
 
 .footer-list-tweets{
@@ -883,6 +891,12 @@ body{
 	border-bottom: 1px solid #252525;
 	padding-bottom: 22px;
 	margin-bottom: 16px;
+}
+
+.footer-list-tweets :last-child .footer-list-tweet{
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 .footer-list-tweet p span{
@@ -897,6 +911,7 @@ body{
 	font-size: 14px;
 	color: #555555;
 	line-height: 20px;
+	margin-bottom: 5px;
 }
 
 .footer-list-tweet span{
@@ -922,9 +937,70 @@ body{
 	max-width: 100%;
 }
 
+.footer-container{
+	width: 100%;
+	background: #111111;
+	color: #555555;
+}
 
+.footer-container-info{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 40px 0;
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: flex;	
+}
+
+.footer-container-contact{
+	width: 50%;
+}
+
+.footer-container-aboutus{
+	width: 50%;
+}
+
+.footer-container-aboutus ul{
+	float: right;
+}
 	
-	
+.footer-container-contact ul li{
+	font-size: 13px;
+	color: #555555;
+	display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+	border-right: 1px solid #555555; 
+}	
+
+.footer-container-contact ul li:last-child{
+    padding-right: 0;
+	border-right: none; 
+}	
+
+.footer-container-contact ul li:first-child{
+	padding-left: 0; 
+}	
+
+.footer-container-aboutus ul li{
+	font-size: 13px;
+	color: #555555;
+	display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+	border-right: 1px solid #555555; 
+}	
+
+.footer-container-aboutus ul li:last-child{
+    padding-right: 0;
+	border-right: none; 
+}	
+
+.footer-container-aboutus ul li:first-child{
+	padding-left: 0; 
+}
+
+
 	
 	
 	
